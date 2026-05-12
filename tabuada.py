@@ -4,6 +4,12 @@ def exibir_cabecalho(titulo):
     print("=" * 30)
 
 
+def soma(n):
+    exibir_cabecalho(f"Soma do {n}")
+    for i in range(1, 11):
+        print(f"{n} + {i:2} = {n + i:2}")
+
+
 def multiplicacao(n):
     exibir_cabecalho(f"Multiplicação do {n}")
     for i in range(1, 11):
@@ -13,19 +19,25 @@ def multiplicacao(n):
 def menu():
     while True:
         print("\n--- TABUADA ---")
-        print("1. Multiplicação")
-        print("2. Sair")
+        print("1. Soma")
+        print("2. Multiplicação")
+        print("3. Sair")
 
         opcao = input("\nEscolha uma opção: ")
 
-        if opcao == '2':
+        if opcao == '3':
             print("Saindo...")
             break
 
-        elif opcao == '1':
+        elif opcao in ['1', '2']:
             try:
                 num = int(input("Digite o número para a tabuada: "))
-                multiplicacao(num)
+
+                if opcao == '1':
+                    soma(num)
+
+                elif opcao == '2':
+                    multiplicacao(num)
 
             except ValueError:
                 print("Digite um número válido!")
