@@ -1,27 +1,28 @@
+'''Função de exibir o cabeçalho'''
 def exibir_cabecalho(titulo):
     print("\n" + "=" * 30)
     print(f"{titulo:^30}")
     print("=" * 30)
 
-
+'''Função de soma'''
 def soma(n):
     exibir_cabecalho(f"Soma do {n}")
     for i in range(1, 11):
         print(f"{n} + {i:2} = {n + i:2}")
 
-
+'''Função de subtração'''
 def subtracao(n):
     exibir_cabecalho(f"Subtração do {n}")
     for i in range(1, 11):
         print(f"{n} - {i:2} = {n - i:2}")
 
-
+'''Função de multiplicação'''
 def multiplicacao(n):
     exibir_cabecalho(f"Multiplicação do {n}")
     for i in range(1, 11):
         print(f"{n} x {i:2} = {n * i:2}")
 
-
+'''Função de menu'''
 def menu():
     while True:
         print("\n--- TABUADA ---")
