@@ -16,10 +16,6 @@ O projeto consiste em um script **Python** que funciona como uma calculadora de 
 * **Controle de Versão:** Git
 * **Plataforma de Hospedagem:** GitHub
 
-## 👥 Integrantes do Grupo
-* **[Gilson Faquini]** - Usuário do GitHub [Gilson Faquini]
-* **[Gabriel Alencar]** - Usuário do GitHub [GABRI3L223]
-
 ## 🚀 Como Executar o Código
 1.  **Clone este repositório:**
     ```bash
@@ -40,3 +36,8 @@ O projeto consiste em um script **Python** que funciona como uma calculadora de 
 - [x] Mínimo de 3 commits significativos por integrante.
 - [x] Uso de comandos via terminal (`clone`, `add`, `commit`, `push`).
 - [x] README.md detalhado e organizado.
+
+
+## 👥 Integrantes do Grupo
+* **[Gilson Faquini]** - Usuário do GitHub [Gilson Faquini]
+* **[Gabriel Alencar]** - Usuário do GitHub [GABRI3L223]
